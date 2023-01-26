@@ -8,13 +8,13 @@
     <link href="css/output.css" rel="stylesheet">
 </head>
 <body>
-    <div class="w-full flex gap-4 sm:gap-8 justify-end fixed z-20 px-10 py-2 top-0 bg-[#072643] text-slate-200">
+    <div class="w-full flex gap-4 sm:gap-8 justify-end fixed z-30 px-10 py-2 top-0 bg-[#072643] text-slate-200">
         <a href="#">Home</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#about">About</a>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
     </div>
-    <div class="w-full h-screen flex flex-col lg:flex-row bg-cover bg-[#247ba0]/100 text-slate-200">
+    <div class="w-full h-screen flex flex-col lg:flex-row bg-cover bg-[#0096C7]/100 text-slate-200">
         <div class="group/2013 hidden lg:flex lg:flex-col lg:w-2/12 z-10 hover:lg:w-8/12 lg:h-full lg:px-8 lg:py-14 bg-[#072643]/90">
             <span class="block text-center text-slate-200/80">2013 - 2016</span>
             <span class="block text-center text-base md:text-lg lg:mt-2 font-['Century_Gothic']">SMK Negeri 1 Denpasar</span>
@@ -37,22 +37,30 @@
     <div class="inline-block absolute top-[80px] lg:top-[100px] left-[5%] sm:left-[15%] lg:left-[35%]">
         <span class="block p-0 text-[30pt] sm:text-[50pt] text-slate-200 font-['Century_Gothic']">Ogi Baladewa</span>
     </div>
-    <div class="inline-block absolute top-[140px] sm:top-[160px] lg:top-[180px] right-[10%] sm:left-[35%]  lg:left-[50%]">
-        <span class="block p-0 text-[25pt] sm:text-[30pt] text-slate-200 font-['Courier_New']">Web Developer</span>
+    <div class="inline-block absolute top-[140px] sm:top-[160px] lg:top-[190px] right-[10%] sm:left-[35%]  lg:left-[40%]">
+        <span class="block p-0 text-[25pt] sm:text-[30pt] text-slate-200 font-['Courier_New']">WEB DEVELOPER</span>
     </div>
     <div class="w-full z-20 text-center block absolute bottom-0 mx-auto">
         <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">Welcome</span>  
     </div>
 
     <!-- Portfolio Section -->
-    <div id="portfolio" class="w-full flex h-[700px] bg-slate-400">
+    <div id="portfolio" class="w-full flex h-[700px] bg-slate-400 text-slate-200">
         <div class="w-6/12 h-full bg-blue-300">
-            <div class="w-full h-1/2 border-2 border-sky-500"></div>
-            <div class="w-full h-1/2 border-2 border-red-500"></div>
+            <div class="w-full h-1/2 px-28 py-4 border-r-4 border-[#030c24] bg-[#0096C7]">
+                <img src="img/luv.png" class="w-full mx-auto rounded-lg shadow-lg">
+            </div>
+            <div class="w-full h-1/2 py-4 px-10 border-r-4 border-[#030c24] bg-[#0077B6]">
+                <span class="block text-xl text-center">Sistem Informasi Eksekutif Bahan Habis Pakai Pada Luv Laundry Menggunakan Framework Laravel</span>
+            </div>
         </div>
         <div class="w-6/12 h-full bg-[#072643]/90">
-            <div class="w-full h-1/2 border-0 border-red-500 bg-[#072643]/90"></div>
-            <div class="w-full h-1/2 border-0 border-sky-500 bg-[#134c81]/90"></div>
+            <div class="w-full h-1/2 border-l-4 border-[#030c24] bg-[#072643]/90">
+                
+            </div>
+            <div class="w-full h-1/2 px-28 py-4 border-l-4 border-[#030c24] bg-[#134c81]/90">
+                <img src="img/ogbamobile.png" class="w-full mx-auto rounded-lg shadow-lg">
+            </div>
         </div>
     </div>
 
@@ -62,12 +70,33 @@
             <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">About Me</span>  
         </a>
     </div>
-    <div id="about" class="w-full h-[700px] bg-slate-600">
-
+    <div id="about" class="w-full flex h-[700px] bg-[#0096C7]">
+        <div class="w-1/12 h-full"></div>
+        <div class="w-4/12">
+            <img src="img/me2.png" class="h-full" />
+        </div>
+        <div class="w-7/12"></div>
     </div>
 
-    <!-- We will put our React component inside this div. -->
+    <!-- Contact Section -->
+    <div class="w-full z-20 text-center block mx-auto">
+        <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">Contact Me</span>  
+    </div>
+    <div id="contact" class="w-full flex h-[700px] bg-[#134c81]/90">
+        <div class="w-1/12 h-full"></div>
+        <div class="w-4/12">
+            
+        </div>
+        <div class="w-7/12"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="w-full z-20 text-center block mx-auto">
+        <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">Footer</span>  
+    </div>
+    
     <div id="like_button_container"></div>
+    <!-- We will put our React component inside this div. -->
 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
