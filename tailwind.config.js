@@ -9,7 +9,7 @@ module.exports = {
         '100%': { transform: 'translate(0px, 0px)' },
       },
       slideRight: {
-        '0%': { transform: 'translate(-200px, 0px)' },
+        '0%': { transform: 'translate(-30px, 0px)' },
         '100%': { transform: 'translate(0px, 0px)' },
       },
       slideBottom: {
@@ -37,7 +37,7 @@ module.exports = {
       slideBottom: 'slideBottom 2s ease-out 1',
       slideTop: 'slideTop 4s ease-out 1',
       buttonRise: 'buttonRise 1.5s 3s ease-out 3',
-      hop: 'hop 1.5s ease-in-out infinite',
+      hop: 'hop 1.5s 5s ease-in-out infinite',
   },
   },
   plugins: [],

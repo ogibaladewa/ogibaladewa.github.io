@@ -12,7 +12,7 @@
         <div class="w-6/12 flex gap-4 sm:gap-8 justify-start z-30 md:px-10 py-2 top-0 text-slate-200 text-xl tracking-widest">
             OGI BALADEWA
         </div>
-        <div class="w-6/12 hidden sm:flex gap-4 sm:gap-8 justify-end items-center z-30 md:px-10 py-2 top-0 text-slate-200 tracking-wider">
+        <div class="w-6/12 hidden sm:flex gap-4 sm:gap-8 justify-end items-center z-30 md:px-10 py-2 top-0 text-slate-200 tracking-wider animate-slideBottom">
             <a href="#">Home</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
@@ -28,18 +28,13 @@
             </a>
         </div>
     </div>
-    <div id="hidden_navbar" class="hidden">
-        <a href="#"><div class="w-full py-4 text-center text-slate-200 tracking-wider">Home</div></a>
-        <a href="#portfolio"><div class="w-full py-4 text-center text-slate-200 tracking-wider">Portfolio</div></a>
-        <a href="#about"><div class="w-full py-4 text-center text-slate-200 tracking-wider">About</div></a>
-        <a href="#contact"><div class="w-full py-4 text-center text-slate-200 tracking-wider">Contact</div></a>
-    </div>
+    
     <div class="w-full relative h-screen flex flex-col lg:flex-row text-slate-200 overflow-hidden">
         <div class="w-full absolute h-screen flex flex-col lg:flex-row bg-cover bg-center bg-[url('../img/ogi-bg.png')] text-slate-200"></div>
         <div class="w-full absolute h-screen flex flex-col lg:flex-row bg-cover bg-center bg-[url('../img/ogi-hill1.png')] text-slate-200 animate-slideTop"></div>
         <div class="w-full absolute h-screen flex flex-col lg:flex-row bg-cover bg-center bg-[url('../img/ogi-hill2.png')] text-slate-200 animate-slideLeft"></div>
         <div class="w-full absolute h-screen flex flex-col lg:flex-row bg-cover bg-center bg-[url('../img/ogi-hill3.png')] text-slate-200 animate-slideRight"></div>
-        <div class="absolute sm:w-8/12 max-h-full md:w-6/12 lg:w-auto pt-32 flex flex-col lg:flex-row text-slate-200 bottom-0 right-0 sm:right-[2%] md:right-[8%] animate-slideLeftMe">
+        <div class="absolute w-10/12 sm:w-8/12 max-h-full md:w-6/12 lg:w-auto pt-32 flex flex-col text-slate-200 bottom-0 right-0 sm:right-[2%] md:right-[8%] animate-slideLeftMe">
             <img src="img/ogi-me1fit.png" class="max-h-fit" />
         </div>
         <div class="w-full absolute py-2 text-slate-400 bottom-[4%] text-center text-xl tracking-widest animate-hop">
@@ -63,30 +58,47 @@
             <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#010b13]">Portfolio saya</span>  
         </a>
     </div>
-    <div class="w-full flex h-[350px] bg-slate-400 text-slate-200">
-        <div class="w-1/2 h-full bg-[#10406c]"></div>
-        <div class="w-1/2 h-full bg-[#061f39]"></div>
+    <div class="w-full relative h-screen text-slate-200 overflow-hidden bg-cover bg-center bg-[url('../img/ogi-bg2.png')]">
+        
+    <div class="w-full flex h-[340px] text-slate-200 border-b-4 border-slate-400/30">
+        <div class="w-1/2 h-full px-10 py-5">
+            <div class="w-full h-full border-2 border-orange-500/30 rounded-md overflow-auto">
+                <img src="img/ogbamobile.png" />
+            </div>
+        </div>
+        <div class="w-1/2 h-full flex justify-end pl-10 py-10">
+            <div class="w-full h-full bg-slate-800/50 border-l-4 border-orange-400/30 shadow-md"></div>
+        </div>
     </div>
-    <div class="w-full flex h-[350px] bg-slate-400 text-slate-200">
-        <div class="w-1/2 h-full bg-[#7b4e22]"></div>
-        <div class="w-1/2 h-full bg-[#a6682c]"></div>
+    <div class="w-full flex h-[340px] text-slate-200">
+        <div class="w-1/2 h-full pr-10 py-10">
+            <div class="w-full h-full bg-slate-800/50 border-r-4 border-orange-400/30 shadow-md"></div>
+        </div>
+        <div class="w-1/2 h-full px-10 py-5">
+            <div class="w-full h-full border-2 border-orange-500/30 rounded-md overflow-auto">
+                <img src="img/luv.png" />
+            </div>
+        </div>
+    </div>
     </div>
 
     <!-- About Section -->
-    <div class="w-full z-20 text-center block mx-auto">
+    <div id="about" class="w-full z-20 text-center block mx-auto">
         <a href="#about">
-            <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">About Me</span>  
+            <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#010b13]">About Me</span>  
         </a>
     </div>
-    <div id="about" class="w-full relative flex justify-center h-[700px] bg-[#0096C7]">
-            <img src="img/me2.png" class="absolute bottom-0 h-1/2" />
-    </div>
 
-    <!-- Contact Section -->
-    <div class="w-full z-20 text-center block mx-auto">
-        <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#030c24]">Contact Me</span>  
+    <div class="w-full relative h-screen text-slate-200 overflow-hidden bg-cover bg-center bg-[url('../img/ogi-bg3b.png')]">
+        <div class="w-full relative flex justify-center h-[700px]">
+            <img src="img/ogi-me2fit.png" class="absolute bottom-0 h-1/2 -mb-4" />
+        </div>
     </div>
-    <div id="contact" class="w-full flex h-[700px] bg-[#134c81]/90">
+    <!-- Contact Section -->
+    <div id="contact" class="w-full z-20 text-center block mx-auto">
+        <span class="block p-0 text-[25pt] text-slate-200 font-['Courier_New'] bg-[#010b13]">Contact Me</span>  
+    </div>
+    <div class="w-full flex h-[700px] bg-[#134c81]/90">
         <div class="w-1/12 h-full"></div>
         <div class="w-4/12">
             
@@ -100,7 +112,8 @@
         Baladewa | All Rights Reserved</span>  
     </div>
     
-    <!-- <div id="like_button_container"></div> -->
+    <div id="hidden_navbar"></div>
+    <div id="like_button_container" class="w-full h-10 bg-green-400"></div>
     <!-- We will put our React component inside this div. -->
 
     <!-- Load React. -->
@@ -110,5 +123,6 @@
 
     <!-- Load our React component. -->
     <script src="js/test_component.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html>
