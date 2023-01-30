@@ -2317,9 +2317,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-\[16pt\] {
+  font-size: 16pt;
 }
 
 .text-sm {
@@ -2327,8 +2326,8 @@ video {
   line-height: 1.25rem;
 }
 
-.text-\[25pt\] {
-  font-size: 25pt;
+.text-\[15pt\] {
+  font-size: 15pt;
 }
 
 .text-base {
@@ -2340,8 +2339,8 @@ video {
   font-size: 30pt;
 }
 
-.text-\[16pt\] {
-  font-size: 16pt;
+.text-\[25pt\] {
+  font-size: 25pt;
 }
 
 .font-semibold {
@@ -2924,20 +2923,16 @@ video {
     padding-right: 5rem;
   }
 
+  .sm\:text-\[20pt\] {
+    font-size: 20pt;
+  }
+
   .sm\:text-\[50pt\] {
     font-size: 50pt;
   }
 
   .sm\:text-\[30pt\] {
     font-size: 30pt;
-  }
-
-  .sm\:text-\[25pt\] {
-    font-size: 25pt;
-  }
-
-  .sm\:text-\[20pt\] {
-    font-size: 20pt;
   }
 
   .sm\:underline {
@@ -2982,13 +2977,13 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-\[25pt\] {
+    font-size: 25pt;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-\[25pt\] {
-    font-size: 25pt;
   }
 }
 
