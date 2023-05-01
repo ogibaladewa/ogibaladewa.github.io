@@ -3020,8 +3020,8 @@ video {
     display: flex;
   }
 
-  .lg\:h-\[700px\] {
-    height: 700px;
+  .lg\:h-\[1050px\] {
+    height: 1050px;
   }
 
   .lg\:h-\[340px\] {
@@ -3030,6 +3030,14 @@ video {
 
   .lg\:h-full {
     height: 100%;
+  }
+
+  .lg\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .lg\:h-\[1400px\] {
+    height: 1400px;
   }
 
   .lg\:w-auto {
