@@ -3020,8 +3020,8 @@ video {
     display: flex;
   }
 
-  .lg\:h-\[1050px\] {
-    height: 1050px;
+  .lg\:h-\[1400px\] {
+    height: 1400px;
   }
 
   .lg\:h-\[340px\] {
@@ -3036,8 +3036,12 @@ video {
     height: 700px;
   }
 
-  .lg\:h-\[1400px\] {
-    height: 1400px;
+  .lg\:h-\[1600px\] {
+    height: 1600px;
+  }
+
+  .lg\:h-\[1800px\] {
+    height: 1800px;
   }
 
   .lg\:w-auto {
